@@ -3,8 +3,8 @@ import torch.nn as nn
 import torch.autograd as autograd
 import numpy as np
 
-from common.replay_buffers import BasicBuffer
-from vanillaDQN.models import ConvDQN, DQN
+from replay_buffers import BasicBuffer
+from models import ConvDQN, DQN
     
     
 class DQNAgent:
